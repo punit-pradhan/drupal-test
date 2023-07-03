@@ -1,0 +1,29 @@
+uuid: 2df8e374-ccc2-4a1a-9c28-a1215d1c6b77
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_5_recent_sports_news
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__top_5_recent_sports_news_block_1
+theme: olivero
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:top_5_recent_sports_news-block_1'
+settings:
+  id: 'views_block:top_5_recent_sports_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

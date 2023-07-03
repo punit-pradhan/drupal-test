@@ -1,0 +1,25 @@
+uuid: 61b02ce5-b5bc-402c-90d2-b40579d66a17
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.content-us
+  module:
+    - system
+  theme:
+    - olivero
+id: contentus
+theme: olivero
+region: footer_top
+weight: -8
+provider: null
+plugin: 'system_menu_block:content-us'
+settings:
+  id: 'system_menu_block:content-us'
+  label: 'Content us'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

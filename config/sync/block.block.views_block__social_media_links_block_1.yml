@@ -1,0 +1,24 @@
+uuid: cb9e3347-56f4-4962-b9ad-148fcf27f74e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.social_media_links
+  module:
+    - views
+  theme:
+    - olivero
+id: views_block__social_media_links_block_1
+theme: olivero
+region: footer_top
+weight: -9
+provider: null
+plugin: 'views_block:social_media_links-block_1'
+settings:
+  id: 'views_block:social_media_links-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

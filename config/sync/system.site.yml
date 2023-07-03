@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 88c62635-3d08-4d91-9d87-e6cde83a0222
+name: 'news website'
+mail: admin@example.com
+slogan: ''
+page:
+  403: /node/2
+  404: /node/1
+  front: /node/7
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

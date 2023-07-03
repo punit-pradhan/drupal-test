@@ -1,0 +1,14 @@
+uuid: 987d7c11-5686-4c95-8bd8-7eee00f03b7a
+langcode: en
+status: true
+dependencies: {  }
+name: thumbnail_200_100_
+label: 'thumbnail (200/100)'
+effects:
+  6cfe4899-65d6-458f-bd36-d2f869baae44:
+    uuid: 6cfe4899-65d6-458f-bd36-d2f869baae44
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 100

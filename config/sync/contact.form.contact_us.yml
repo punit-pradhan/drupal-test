@@ -1,0 +1,12 @@
+uuid: f1f904dc-495e-408b-ae90-a29f7abda7ad
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact us'
+recipients:
+  - test@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: /node

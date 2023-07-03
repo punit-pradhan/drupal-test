@@ -1,0 +1,25 @@
+uuid: 3d6a2aa6-9e54-4973-a21c-ed5ff0c28d11
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.category
+  module:
+    - system
+  theme:
+    - olivero
+id: category
+theme: olivero
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:category'
+settings:
+  id: 'system_menu_block:category'
+  label: category
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
